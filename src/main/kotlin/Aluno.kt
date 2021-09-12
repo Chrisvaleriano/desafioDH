@@ -4,7 +4,4 @@ class Aluno (var nome:String, var sobreNome:String , var codigoAluno:Int )  {
         return (other is Aluno) && (other.codigoAluno == this.codigoAluno)
     }
 
-
-
-
 }
