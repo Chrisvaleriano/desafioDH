@@ -1,12 +1,15 @@
-class Curso(var nome: String, var codigoCurso: Int) {
+class Curso(var nomeCurso: String , var codigoCurso: Int) {
 
-    constructor(nome: String, codigoCurso: Int,
+    constructor(nomeCurso: String, codigoCurso: Int,
         professorTitular: ProfessorTitular, professorAdjunto: ProfessorAdjunto,
         quantMaxAlunos: Int, listaAlunosMatriculados: MutableList<Aluno>
-    ) : this(nome, codigoCurso)
+    ) : this(nomeCurso, codigoCurso)
 
     override fun equals(other: Any?): Boolean {
         return (other is Curso && this.codigoCurso == other.codigoCurso)
+    }
+    override fun hashCode(): Int {
+        return codigoCurso
     }
     }
 

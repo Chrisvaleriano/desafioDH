@@ -10,7 +10,7 @@ fun main() {
     var listaAlunos1= mutableListOf<Aluno>()
     listaAlunos1.add(alunoNovo)
     listaAlunos1.add(alunoNovo2)
-    listaAlunos1.forEach(){ println(it.nome)}
+    listaAlunos1.forEach(){ println(it.nomeAluno)}
     var cursoPiano = Curso("Piano",14,professorTitular1,professorAdjunto1,15,listaAlunos1)
 
 }
