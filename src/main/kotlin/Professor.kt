@@ -1,4 +1,4 @@
-open abstract class Professor(var nome: String, var sobreNome: String, var tempoDeCasa: Int,
+open abstract class Professor(var nomeProfessor: String, var sobreNome: String, var tempoDeCasa: Int,
                 var codigoProfessor: Int) {
 
     override fun equals(other: Any?): Boolean {
