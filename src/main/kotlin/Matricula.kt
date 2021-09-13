@@ -1,6 +1,6 @@
 import java.util.*
 
-class Matricula (var alunoA: Aluno, var cursoA: Curso){
-var data= Date()
+class Matricula (var alunoNovo: Aluno, var cursoA: Curso){
+var dataMatricula= Date()
 
  }
