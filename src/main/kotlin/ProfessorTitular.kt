@@ -1,6 +1,6 @@
-class ProfessorTitular(
-    nome: String, sobreNome: String, tempoDeCasa: Int,
+class ProfessorTitular(nomeProfessor: String, sobreNome: String, tempoDeCasa: Int,
     codigoProfessor: Int, especialidade: String
-) :
-    Professor(nome, sobreNome, tempoDeCasa, codigoProfessor) {
-}
+) : Professor(nomeProfessor, sobreNome, tempoDeCasa, codigoProfessor)
+
+
+
